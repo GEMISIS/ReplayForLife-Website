@@ -1,0 +1,44 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.acmlogo{
+	border: solid;
+	width: 150px;
+	height: 150px;
+	border-color: gray;
+	border-radius: 150px;
+	position: absolute;
+	margin-left: -500px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+
+.r4llogo{
+	border: solid;
+	width: 150px;
+	height: 150px;
+	border-color: gray;
+	position: absolute;
+	margin-left: 375px;
+}
+
+.video
+{
+	margin-left: -600px;
+	position: absolute;
+}
+
+.sideText
+{
+	position: absolute;
+	margin-left: 650px;
+	font-size: 24px;
+	width: 500px;
+	height: 400px;
+}
+

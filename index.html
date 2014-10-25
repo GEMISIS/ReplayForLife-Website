@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="assets/img/logo.png">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Replay for Life - Fall 2014</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -41,13 +41,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Replay for Life</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="http://www.extra-life.org/index.cfm?fuseaction=donorDrive.team&teamID=17380" target="_blank">Donate</a></li>
+            <li><a href="http://www.twitch.tv/replay4life">Twitch Stream</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -56,9 +56,26 @@
     <div class="container">
 
       <div class="starter-template">
-        <img src="acm logo.00_jpg_srz"
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <img src="assets/img/acmlogo.jpg" class="acmlogo">
+        <img src="assets/img/logo.png" class="r4llogo">
+        <h1>Replay for Life</h1>
+        <p class="lead">
+            CNU's ACM team is proud to be supporting extra life, an organization
+            <br>that has committed to helping those with acute lymphoblastic leukemia.
+            <br>We as the gaming community have decided to help them as they help others.
+        </p>
+        <br>
+        <br>
+        <iframe src="http://www.twitch.tv/replay4life/embed" frameborder="0" scrolling="no" height="378" width="620" class="video"></iframe>
+        <div class="sideText">
+          <br>
+          This fall semester, the ACM will be hosting it's replay for life. This is the second Replay for Life event! Come on out to support our charity event. This year, we will be donating the money to a different organization.
+          <br>
+          <br>
+          <form action="http://www.extra-life.org/index.cfm?fuseaction=donorDrive.team&teamID=17380" target="_blank">
+              <button type="button" class="btn btn-lg btn-info">Click here to donate!</button>
+          </form>
+        </div>
       </div>
 
     </div><!-- /.container -->
